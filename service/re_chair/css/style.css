@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.boxMake{
+	background:#FEE2E2;
+	border:solid 2px #D94444;
+	border-radius:5px;
+	padding:15px;
+	position:relative;
+}
+.boxMake p{
+	padding:0 280px 10px 0;
+}
+.boxMake .ph1{
+	position:absolute;
+	left: 424px;
+	top: -15px;
+}
+.brandList{
+	padding:0 10px 20px 10px;
+}
+.brandList ul{
+	float:left;
+	width:230px;
+	font-size:12px;
+}
+.brandList ul li{
+	padding:10px 0 10px 0;
+	border-bottom:dotted 1px #CCC;
+}
+
+.flowBox{
+	border:1px solid #FB7373;
+	padding:10px;
+	margin-bottom:20px;
+}
+.flowBox .ttl{
+	text-align:center;
+	padding:5px;
+	background:#FB7373;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.flowBox ul{
+	background:url(../img/flow_img.gif)  no-repeat left top;
+	padding:0 0 0 80px;
+	margin:0 15px 0 15px;
+}
+.flowBox ul li{
+	background:url(../../../common/img/side_line.gif) repeat-x left bottom;
+	padding:15px 0 20px 0;
+}
+.flowBox ul li:last-child{
+	background:none;
+}
+.flowBox ul li em{
+	font-weight:bold;
+	font-size:16px;
+	color:#393;
+}
+.lineU{
+	border-bottom:1px solid #F66;
+	padding-bottom:20px;
+}

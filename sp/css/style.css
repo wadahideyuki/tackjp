@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+.topContent .block{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.topContent h2{
+	text-align: center;
+}
+
+
+
+
+/* 各コンテンツ */
+.topContent .main{
+	position: relative;
+}
+.topContent .main a{
+	width: 59.375%;
+	position: absolute;
+	top: 62%;
+	left: 36%;
+}
+	.topContent .main a img{width: 100%;}
+
+
+.topContent .mainLead{
+	background-color: #e50b09;
+	padding: 10px 10px;
+	color: #fff;
+}
+
+
+/**サービス一覧はcommon.cssに記述**/
+
+
+.topContent .features{
+	background-color: #e50b09;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+.topContent .features h2{margin-bottom: 15px;}
+.topContent .features p{
+	margin-bottom: 10px;
+}
+.topContent .features li{}
+	.topContent .features li + li{margin-top: 10px;}
+.topContent .features li a{display: block;}
+.topContent .features li a img{width: 100%;}
+
+
+.topContent .price{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.topContent .price h2{margin-bottom: 15px;}
+.topContent .price .acrdBox{
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+	.topContent .price .acrdBox + .acrdBox{margin-top: 10px;}
+.topContent .price .acrdBox dt{
+	background-color: #666;
+	padding: 10px 28px 10px 10px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+}
+	.topContent .price .acrdBox dt:after{
+		content: "";
+		display: block;
+		background:url(../img/arw1_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 18px;
+		height: 18px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+	.topContent .price .acrdBox dt.opn:after{background-image: url(../img/arw1_t.png);}
+.topContent .price .acrdBox dd{
+	display: none;
+	padding: 0px 10px;
+}
+.topContent .price .acrdBox dd ul{
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+	color: #000;
+}
+.topContent .price .acrdBox dd li{
+	display: table-row;
+}
+	.topContent .price .acrdBox dd li + li{border-top: 1px dotted #b68347;}
+.topContent .price .acrdBox dd li > *{
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px 0;
+}
+.topContent .price .acrdBox dd li span{}
+	.topContent .price .acrdBox.no1 dd li span{width: 90px;}
+	.topContent .price .acrdBox.no2 dd li span{width: 140px;}
+	.topContent .price .acrdBox.no3 dd li span{width: 100px;}
+.topContent .price .acrdBox dd li p{}
+	.topContent .price .acrdBox dd li p + p{padding-left: 10px;}
+.topContent .price .acrdBox dd li em{color: #f00;}
+
+
+.topContent .movie{
+	background-color: #333;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.topContent .movie h2{
+	margin-bottom: 15px;
+}
+.topContent .movie .movBox{
+}
+.topContent .movie .movBox iframe{
+	width: 100%;
+	height: 100%;
+}
+
+
+.topContent .voice{
+	background-color: #f2f7fa;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.topContent .voice h2{
+	margin-bottom: 15px;
+}
+.topContent .voice li{}
+	.topContent .voice li + li{margin-top: 10px;}
+.topContent .voice li a{display: block;}
+.topContent .voice li a img{width: 100%;}
+
+
+.faqZone{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.faqZone h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.faqZone .acrdBox{
+	border-bottom: 1px solid #ccc;
+}
+.faqZone .acrdBox > *{
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+}
+.faqZone .acrdBox > dt{
+	background-image: url(../img/faq_q.png);
+	background-position: 10px 10px;
+	padding: 10px 25px 10px 35px;
+	border-top: 1px solid #ccc;
+	position: relative;
+}
+	.faqZone .acrdBox > dt:after{
+		content: "";
+		display: block;
+		background:url(../img/arw2_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 15px;
+		height: 15px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+		.faqZone .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
+.faqZone .acrdBox > dd{
+	display: none;
+	background-image: url(../img/faq_a.png);
+	background-position: 10px 0px;
+	padding: 0px 10px 10px 35px;
+}
+.faqZone .btnBox{padding: 10px;}
+.faqZone .btnBox a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.faqZone .btnBox a span{
+	display: inline-block;
+	background:url(../img/arw3_r.png) left center no-repeat;
+	background-size: auto 12px;
+	padding:10px 15px;
+	color: #000;
+}
+
+.movie .btnBox{padding: 10px 0 0 0;}
+.movie .btnBox a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.movie .btnBox a span{
+	display: inline-block;
+	background:url(../img/arw3_r.png) left center no-repeat;
+	background-size: auto 12px;
+	padding:10px 15px;
+	color: #000;
+}
+
+
+
+
+
+
+

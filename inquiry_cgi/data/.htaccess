@@ -1,0 +1,2 @@
+Options FollowSymLinks ExecCGI Includes
+AddType application/x-httpd-cgi .cgi

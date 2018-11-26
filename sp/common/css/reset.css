@@ -1,0 +1,180 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:100%;
+}
+fieldset,img{
+	border:0;
+	vertical-align: top;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+
+li{list-style:none;}
+
+caption,th{text-align:left;}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before,q:after{content:'';}
+
+abbr,acronym{
+	border:0;
+	font-variant:normal;
+}
+
+br{letter-spacing: normal;}
+
+/* to preserve line-height and selector appearance */
+sup{vertical-align:text-top;}
+
+sub{vertical-align:text-bottom;}
+input,textarea,select{
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,textarea,select{*font-size:100%;}
+
+.hover{}
+
+
+html{
+	color: #333333;
+	letter-spacing: 0.05em;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	font: 14px/1.6 "メイリオ", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic Pro W3", Osaka, Arial, Helvetica, sans-serif;
+	color: #535353;
+}
+
+*:first-child+html body{font-size:87%;}
+
+a{
+	color: #C00;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+a:hover{
+	color: #6E4809;
+	text-decoration: underline;
+}
+
+.clearfix:after{
+  content: ".";  
+  display: block;  
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix{min-height: 1px;}
+* html .clearfix{
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+.clear{clear:both;}
+
+.none{
+	margin:0;
+	padding:0;
+	border: none;
+}
+
+
+/* singleClass */
+.alignR{text-align: right;}
+.alignC{text-align: center;}
+
+.fltL{float: left;}
+.fltR{float: right;}
+.floatL{
+	float: left;
+	padding-right:15px;
+}
+.floatR{
+	float: right;
+	padding-left:15px;
+}
+
+.W100P{width: 100%;}
+.W50P{width: 50%;}
+
+.PR5{padding-right: 5px !important;}
+.PR10{padding-right: 10px !important;}
+.PR15{padding-right: 15px !important;}
+.PR20{padding-right: 20px !important;}
+.PR25{padding-right: 25px !important;}
+.PR30{padding-right: 30px !important;}
+
+.PL5{padding-left: 5px !important;}
+.PL10{padding-left: 10px !important;}
+.PL15{padding-left: 15px !important;}
+.PL20{padding-left: 20px !important;}
+.PL25{padding-left: 25px !important;}
+.PL30{padding-left: 30px !important;}
+
+.PB5{padding-bottom: 5px!important;}
+.PB10{padding-bottom: 10px!important;}
+.PB15{padding-bottom: 15px!important;}
+.PB20{padding-bottom: 20px!important;}
+.PB25{padding-bottom: 25px!important;}
+.PB30{padding-bottom: 30px!important;}
+
+.PT5{padding-top: 5px!important;}
+.PT10{padding-top: 10px!important;}
+.PT15{padding-top: 15px!important;}
+.PT20{padding-top: 20px!important;}
+.PT25{padding-top: 25px!important;}
+.PT30{padding-top: 30px!important;}
+
+.font8{font-size: 8px!important;}
+.font9{font-size: 9px!important;}
+.font10{font-size:10px!important;}
+.font11{font-size:11px!important;}
+.font12{font-size:12px!important;}
+.font13{font-size:13px!important;}
+.font14{font-size:14px!important;}
+.font15{font-size:15px!important;}
+.font16{font-size:16px!important;}
+.font17{font-size:17px!important;}
+.font18{font-size:18px!important;}
+.font19{font-size:19px!important;}
+.font20{font-size:20px!important;}
+.font21{font-size:21px!important;}
+.font22{font-size:22px!important;}
+.font23{font-size:23px!important;}
+.font24{font-size:24px!important;}
+.font25{font-size:25px!important;}
+.font26{font-size:26px!important;}
+.font27{font-size:27px!important;}
+.font28{font-size:28px!important;}
+.font29{font-size:29px!important;}
+.font30{font-size:30px!important;}
+
+.fontGreen{color:#060;}
+.fontRed{color:#C00;}
+.fontB{font-weight:bold;}
+
+
+

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.flowThumb{
+	padding-top:11px;
+}
+.flowThumb li{
+	width:133px;
+	float:left;
+	text-align:center;
+	margin-right:11px;
+}
+.flowThumb li:last-child{
+	margin-right:0px;
+	
+}
+.flowThumb li a{
+	display:block;
+	padding:3px 0 3px 0;
+	background:#999;
+	color:#FFF;
+	text-align:center;
+}
+.flowThumb li a.selected{
+	background:#C00;
+}
+.flowThumb li img{
+	padding-bottom:5px;
+	text-align:center;
+}

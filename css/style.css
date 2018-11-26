@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+#index{
+	padding:3px 0 0 0;
+	background:url(../img/bg.jpg) repeat-x;
+}
+#mainImage{
+	background:url(../img/main.jpg);
+	height:444px;
+	position:relative;
+	width:960px;
+	margin: 0 auto;
+}
+#mainImage .copy{
+	position:absolute;
+	left: 389px;
+	top: 15px;
+}
+
+#mainImage .btn{
+	position:absolute;
+	left: 400px;
+	top: 328px;
+}
+#mainNavi{
+	background:url(../img/service_navi_bg.jpg)  center;
+	height:77px;
+	
+}
+#mainNavi .mainNaviInner{
+	width:1100px;
+	margin:0 auto;
+}
+#mainNavi .mainNaviInner ul{
+	padding-left:110px;
+}
+#mainNavi li{
+	float:left;
+	margin:12px 0 0 0;
+	border-left:#C00 1px solid;
+	border-right:#F33 1px solid;
+}
+
+#index #content{
+	width:960px;
+	margin:0 auto;
+}
+
+
+#featureBlock li{
+	background:url(../img/feature_bg.jpg) bottom;
+	width:320px;
+	float:left;
+	padding:0 0 25px 0;
+}
+#featureBlock li p{
+	padding:10px 20px 10px 20px;
+}
+
+#priceBlock h2{
+	position:relative;
+	padding-top:20px;
+}
+#priceBlock h2 span{
+	position:absolute;
+	left: 505px;
+	top: 64px;
+	font-size:12px;
+}
+#priceBlock  h3{
+	text-align:center;
+	background-color:#cca87e;
+	border-radius:20px;
+	color:#FFF;
+	margin-bottom:15px;
+	padding:5px;
+}
+#priceBlock .col3Box{
+	padding:10px 0  0 40px;
+	
+}
+
+#priceBlock .col3{
+	width:280px;
+	float:left;
+	margin-right:20px;
+	
+}
+#priceBlock .priceBg{
+	background:url(../img/price_bg.jpg) bottom;
+	padding:0 0 60px 0;
+}
+#priceBlock table{
+	margin-left:5px;
+	width:268px;
+	margin-top:10px;
+}
+#priceBlock th{
+	border:1px solid #CCC;
+	background:#EEE;
+	padding:5px;
+	font-size:12px;
+	text-align:center;
+}
+#priceBlock td{
+	border:1px solid #CCC;
+	text-align:center;
+	padding:5px;
+	font-size:12px;
+}
+#priceBlock td em{
+	color:#C00;
+}
+#voiceBlock .voiceBox{
+	position:relative;
+	background:url(../img/voice_bg_top.jpg) repeat-y top right;
+}
+#voiceBlock .photo{
+	float:left;
+	width:270px;
+}
+#voiceBlock .comment{
+	margin-left:270px;
+	padding-top:15px;
+}
+#voiceBlock .commentInner{
+	background:url(../img/voice_bg_mig.jpg) no-repeat bottom;
+	padding:0 15px 15px 30px;
+}
+#voiceBlock h3{
+	padding:0 0 18px 15px;
+}
+#voiceBlock p{
+	padding:0 30px 15px 0;
+}
+#qaBlock{
+	background:#cd0807;
+	background:url(../img/qa_bg.jpg) repeat-y;
+}
+#qaBlock .q1{
+	background:url(../img/qa_txt_01.jpg) no-repeat;
+}
+#qaBlock .q2{
+	background:url(../img/qa_txt_02.jpg) no-repeat;
+}
+#qaBlock .q3{
+	background:url(../img/qa_txt_03.jpg) no-repeat;
+}
+#qaBlock .q4{
+	background:url(../img/qa_txt_04.jpg) no-repeat;
+}
+#qaBlock .q5{
+	background:url(../img/qa_txt_05.jpg) no-repeat;
+}
+#qaBlock p{
+	background:url(../img/qa_txt_btm.jpg) no-repeat bottom;
+	padding:45px 30px 50px 330px;
+	font-size:14px;
+}
+#qaBlock .alignR{
+	padding:10px;
+	background:#cd0807;
+	margin:0 5px 0 8px;
+}

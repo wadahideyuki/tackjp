@@ -1,0 +1,83 @@
+.lineU{
+	background:url(../../common/img/side_line.gif) repeat-x left bottom;
+	padding:0 0 20px 0;	
+	margin:0 0 20px 0;	
+	
+}
+
+.companyInfo{
+	background:#EEE;
+	padding:3%;
+	line-height:1.4em;
+	margin-bottom:30px;
+}
+#contents h3.navTtl{
+	background: rgba(220,0,3,1.00);
+	color: #FFF;
+	padding: 1.5%;
+}
+.companyInfo dt{
+	font-weight:bold;
+	border-bottom:1px solid #C00;
+	padding-bottom: 2%;
+}
+
+.companyInfo dd{
+	font-size: 90%;
+	padding-top: 2%;
+}
+
+.voiceTxtBox{
+	padding-bottom:15px;
+}
+
+.voiceTxtBox dt{
+	color:#C00;
+	padding:10px 0 3px 0;
+	background:url(../../common/img/side_line.gif) repeat-x top;
+}
+
+.voiceTxtBox dd{
+	padding:0 0 10px 0 ;
+}
+.voiceTxtBox dd div{
+	margin-top: 2%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.tabtouBox{
+	background:#EEE url(../img/icon.gif) no-repeat 8px 10px;
+	padding:10px 5px 10px 95px;
+	color:#666;
+	margin-bottom:15px;
+}
+
+#voice h2{
+	background:none;
+	padding:0px 0px 0px 0px;
+	border: none;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-size: 120%;
+}
+#voice h2:first-letter{
+	font-size: 35px;
+	color: #D70003;
+}
+#voice h3{
+	border:none;
+}
+
+.voiceNavi li{
+	background:url(../../common/img/side_line.gif) repeat-x bottom;
+}
+
+.voiceNavi li a{
+	background:url(../img/fukidashi.gif) no-repeat 5px center;
+	padding:10px 0 10px 50px;
+	display:block;
+	line-height:1.4em;
+}
+.voiceNavi li a:hover{
+	background:#FFC url(../img/fukidashi.gif) no-repeat 5px center;
+}

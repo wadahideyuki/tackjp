@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="shift_jis">
+<title>椅子やソファークリーニングのお問合せ・お見積り</title>
+<meta name="keywords" content="椅子,ソファー,クリーニング,お問合せ,お見積,価格,電話,インターネット">
+<meta name="description" content="椅子やソファーのクリーニングのお見積りはこちら。お気軽にお問い合わせください">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajaxzip3.github.io/ajaxzip3.js" charset="utf-8"></script>
+<script type="text/javascript" src="../common/js/common.js"></script>
+<link rel="canonical" href="http://www.tack-ic.jp/info/inquiry.html"/>
+<link rel="stylesheet" href="../common/css/reset2.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../common/css/common.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+</head>
+<body id="company">
+<div id="wrapper">	
+<!--head-->
+<a name="pagetop" id="pagetop"></a>
+<div id="header">
+<a href="/sp/"><img src="../common/img/logo.png" alt="椅子・ソファークリーニングのタック" width="176" height="94"></a>
+</div>
+<!--//head-->
+
+
+<!--content-->
+<div id="contentWrap" class="clearfix">
+
+	
+	<!--sideNavi-->
+
+		
+	<!--//sideNavi-->
+	
+	<!--contentsInner-->
+	<div id="contents">
+		<div id="contentsInner">
+			<h1>作業内容や価格についてはお気軽にお問合せください</h1>
+			<p><strong>カーペット・椅子・ソファークリーニングのタック</strong>のホームページをご覧いただき誠にありがとうございます。ご意見、疑問など、お気軽にお問い合わせください。</p>
+			<h2>お問い合わせ方法</h2>
+			<p>お問い合わせ方法については下記のとおりです。</p>
+			<h3>お電話でのお問い合わせ</h3>
+			<p> Tel：03-5819-0961<br>
+				※「ホームページを見た」と担当の者にお伝えください</p>
+			<h3>ファックスでのお問い合わせ</h3>
+			<p>住所・氏名・お問い合わせ内容などを明記のうえ、03-5819-0964までファックスをお送りください。<br>
+				※ファックスを確認後、ご連絡させていただきます。<br>
+			</p>
+			<h3>インターネットからのお問い合わせ</h3>
+			<p>下記に必要事項を明記のうえ、【送信内容を確認する】を一度だけクリックしてください。<br>
+				問い合わせ内容の確認画面に進みますので、内容をご確認後【送信】をクリックしてください。<br>
+				送信後、自動処理で返信メールをお送りしています。万一、送信後数時間経っても返信メールが届かない場合は、再度送信していただくか、電話などでお問い合わせください。</p>
+			<p>★は必須項目です</p>
+			<form name="form1" method="post" action="../inquiry_cgi/mail_table.cgi">
+
+				<table bgcolor="#666666" border="0" cellpadding="5" cellspacing="1" class="contact">
+					<tbody>
+						<tr>
+							<th bgcolor="#EFEFEF" width="141"><div align="left">お名前★　</div></th>
+							<td bgcolor="#FFFFFF" width="368"><input name="お名前" size="20" type="text" placeholder="例:山田太郎 "></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">フリガナ★　</div></th>
+							<td bgcolor="#FFFFFF"><input name="フリガナ" size="20" type="text" placeholder="例:ヤマダタロウ"></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">住所★</div></th>
+							<td bgcolor="#FFFFFF">
+                             <div class="PB10">〒 <input type="text" name="郵便番号" onKeyUp="AjaxZip3.zip2addr(this,'','住所','住所');" size="10"></div>
+                              
+                              住所
+<input type="text" name="住所" size="30" placeholder="例:東京都墨田区横川2-17-9タックビル">
+							
+							
+							
+							</td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">電話番号</div></th>
+							<td bgcolor="#FFFFFF"><input name="電話番号" size="20" type="text" placeholder="例：03-5819-0961">
+								<br></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">ファックス番号</div></th>
+							<td bgcolor="#FFFFFF"><input name="ファックス番号" size="20" type="text"></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">E-mail★ (半角英数) </div></th>
+							<td bgcolor="#FFFFFF"><input name="E-mail" size="25" type="text" placeholder="例：info@tack-ic..jp"></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">現場種類 </div></th>
+							<td bgcolor="#FFFFFF"><input name="現場種類[]" value="一軒家" type="checkbox">
+								一軒家
+								  <br>
+							    <input name="現場種類[]" value="マンション" type="checkbox">
+								マンション
+								<br>
+								<input name="現場種類[]" value="店舗" type="checkbox">
+								店舗
+								<br>
+								<input name="現場種類[]" value="オフィス" type="checkbox">
+								オフィス</td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">クリーニング種類</div></th>
+							<td bgcolor="#FFFFFF">
+								<input name="クリーニング種類[]" value="カーペット" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/carpet/">カーペットクリーニング</a> <br>
+								<input name="クリーニング種類[]" value="椅子・ソファー" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/sofa/">椅子・ソファークリーニング</a><br>
+								<input name="クリーニング種類[]" value="エアコン" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/air/">エアコンクリーニング</a> <br>
+								<input name="クリーニング種類[]" value="ブラインド" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/braind/">ブラインドクリーニング</a><br>
+								<input name="クリーニング種類[]" value="カーペット再染色" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/re_carpet/">カーペット再染色サービス</a><br>
+								<input name="クリーニング種類[]" value="窓ガラスフィルム" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/film/">窓ガラスフィルム施工</a> <br>
+								<input name="クリーニング種類[]" value="椅子張替え" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/re_chair/">椅子張替え</a> <br>
+								<input name="クリーニング種類[]" value="その他クリーニング" type="checkbox">
+								<a href="http://www.tack-ic.jp/service/other/">その他クリーニング</a></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">大きさ・数量など<br>
+								（単位も記入）</div></th>
+							<td bgcolor="#FFFFFF"><textarea name="大きさ・広さ・数量など" cols="39" rows="3"></textarea></td>
+						</tr>
+						<tr>
+							<th bgcolor="#EFEFEF"><div align="left">お問い合わせ内容 </div></th>
+							<td bgcolor="#FFFFFF"><textarea name="お問い合わせ内容" cols="39" rows="6"></textarea></td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				
+          <p align="center">
+              <input type="submit" name="Submit" value="送信内容を確認する">
+          </p>
+			</form>
+		</div></div></div>
+<!--contact-->
+<!--//contact-->
+	
+	
+	
+	
+<!--//content-->
+
+
+
+</div>
+
+<!-- ▽フッタ -->
+<div id="footer">
+		<div class="footInner"> 
+			<p>カーペット・椅子ソファークリーニングなら株式会社タック <br>
+〒130-0003　東京都墨田区横川2-17-9 タックビル</p>
+		</div>
+	</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41622988-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

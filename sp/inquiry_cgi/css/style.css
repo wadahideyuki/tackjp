@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents table.contact input[type="text"]{
+	padding: 2%
+}
+#contents input[type="submit"],
+#contents input[type="button"]{
+	padding: 10px;
+    width: 90%;
+}
+table{
+	margin-bottom: 10px;
+}
+#contents table.contact td,
+#contents table.contact th{
+	display: block;
+	width: auto;
+}
+#contents img.smallPhoto{
+	float: left;
+	width: 50%;
+	margin: 1% 2% 1% 0%;
+}

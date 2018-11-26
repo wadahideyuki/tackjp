@@ -1,0 +1,73 @@
+.lineU{
+	background:url(../../common/img/side_line.gif) repeat-x left bottom;
+	padding:0 0 20px 0;	
+	margin:0 0 20px 0;	
+	
+}
+
+.companyInfo{
+	background:#EEE;
+	padding:15px;
+	font-size:12px;
+	line-height:1.4em;
+	margin-bottom:30px;
+}
+
+.companyInfo dt{
+	float:left;
+	width:170px;
+	font-weight:bold;
+	text-align:right;
+	padding-right:15px;
+}
+
+.companyInfo dd{
+	float:left;
+	width:470px;
+	border-left:3px solid #C00;
+	padding-left:15px;
+}
+
+.voiceTxtBox{
+	padding-right:270px;
+	padding-bottom:15px;
+}
+
+.voiceTxtBox dt{
+	color:#C00;
+	padding:10px 0 3px 0;
+	background:url(../../common/img/side_line.gif) repeat-x top;
+}
+
+.voiceTxtBox dd{
+	padding:0 0 10px 0 ;
+}
+
+.tabtouBox{
+	background:#EEE url(../img/icon.gif) no-repeat 8px center;
+	padding:10px 5px 10px 95px;
+	color:#666;
+	margin-bottom:15px;
+}
+
+#voice h2{
+	background:none;
+	padding:0px 0px 30px 0px;
+}
+#voice h3{
+	border:none;
+}
+
+.voiceNavi li{
+	background:url(../../common/img/side_line.gif) repeat-x bottom;
+}
+
+.voiceNavi li a{
+	background:url(../img/fukidashi.gif) no-repeat 5px center;
+	padding:10px 0 10px 50px;
+	display:block;
+	line-height:1.4em;
+}
+.voiceNavi li a:hover{
+	background:#FFC url(../img/fukidashi.gif) no-repeat 5px center;
+}

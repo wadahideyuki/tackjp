@@ -1,0 +1,24 @@
+/* CSS Document */
+
+#contents .serviceTop img{
+
+}
+#contents .serviceTop p a{
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+	margin-right: 3%;
+}
+#contents .serviceTop em{
+	display: inline-block;
+	width: 69%;
+	
+}
+#service .catTop p {
+    padding: 3% 2% 3% 3%;
+}
+#service .col2R,
+#service .col2L{
+	width: auto;
+	float: none;
+}

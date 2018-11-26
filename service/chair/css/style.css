@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.list1 li{
+	border:#C00 2px solid;
+	border-radius:5px;
+	width:222px;
+	float:left;
+	margin:0 8px 8px 0;
+	padding:10px 0 10px 0;
+	text-align:center;
+	font-weight:bold;
+	color:#C00;	
+}
+
+
+
+/**作業の流れ**/
+.flowThumb{
+	padding-top:11px;
+}
+.flowThumb li{
+	width:110px;
+	float:left;
+	text-align:center;
+	margin-right:9px;
+}
+.flowThumb li:last-child{
+	margin-right:0px;
+	
+}
+.flowThumb li a{
+	display:block;
+	padding:3px 0 3px 0;
+	background:#999;
+	color:#FFF;
+	text-align:center;
+}
+.flowThumb li a.selected{
+	background:#C00;
+}
+.flowThumb li img{
+	padding-bottom:5px;
+	text-align:center;
+}
+
+/**施工実績**/
+.exBox li {
+	float:left;
+	text-align:center;
+	padding:10px 6px 0 6px; 
+}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents .outline  td, #contents .outline  th{
+	border:none;
+	border-top:solid 1px #CCC;
+	border-bottom:solid 1px #CCC;
+}
+
+
+#faq #contents h1{
+	margin-bottom: 0px;
+}
+
+.faqZone{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin: 0 -10px;
+}
+.faqZone h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.faqZone .acrdBox{
+	border-bottom: 1px solid #ccc;
+}
+.faqZone .acrdBox > *{
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+}
+.faqZone .acrdBox > dt{
+	background-image: url(../../img/faq_q.png);
+	background-position: 10px 10px;
+	padding: 10px 25px 10px 35px;
+	border-top: 1px solid #ccc;
+	position: relative;
+}
+	.faqZone .acrdBox > dt:after{
+		content: "";
+		display: block;
+		background:url(../../img/arw2_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 15px;
+		height: 15px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+		.faqZone .acrdBox > dt.opn:after{background-image: url(../../img/arw2_t.png);}
+.faqZone .acrdBox > dd{
+	display: none;
+	background-image: url(../img/faq_a.png);
+	background-position: 10px 0px;
+	padding: 0px 10px 10px 35px;
+}
+.faqZone .btnBox{padding: 10px;}
+.faqZone .btnBox a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.faqZone .btnBox a span{
+	display: inline-block;
+	background:url(../../img/arw3_r.png) left center no-repeat;
+	background-size: auto 12px;
+	padding:10px 15px;
+	color: #000;
+}
+
+#contents .contact td,#contents .contact th{
+	padding:8px;
+}
+
+#flow .flowBox{
+	margin-top:20px;
+}
+#flow .flowBox  li{
+	padding:10px 0 20px 70px;
+	border-top:1px dotted #CCC;
+	background-size: 60px auto;
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+}
+#flow .flowBox  li.flow1{background-image: url(../img/flow1.gif) ;}
+#flow .flowBox  li.flow2{background-image: url(../img/flow2.gif) ;}
+#flow .flowBox  li.flow3{background-image: url(../img/flow3.gif) ;}
+#flow .flowBox  li.flow4{background-image: url(../img/flow4.gif) ;}
+#flow .flowBox  li.flow5{background-image: url(../img/flow5.gif) ;}
+#flow .flowBox  li.flow6{background-image: url(../img/flow6.gif) ;}
+#flow .flowBox h2{
+	background:none;
+	border: none;
+	padding:0 0 5px 0;
+	margin:0px;
+	color:#C00;
+	font-weight:bold;
+}
+#flow .flowBox  li img{
+	float: right;
+	width: 20%;
+}
+
+.baBox .txt1{
+	padding:15px;
+}
+#contents .tbl img{
+	width:150px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#contents h2.demoTtl{
+	font-weight: bold;
+	background: #fb7474;
+	color: #FFF;
+	margin: 10px 0px 0px 0px;
+	padding: 2%;
+	text-align: center;
+	border: none;
+}
+.recomBox{
+	background: url(../../common/img/flow_bg.gif);
+    border-bottom: 1px solid #FDB9B9;
+    border-left: 1px solid #FDB9B9;
+    border-right: 1px solid #FDB9B9;
+	padding: 3%;
+}
+.recomBox li{
+	background: #FFF;
+	padding: 3%;
+	border-radius: 5px;
+	margin: 0 0 2% 0;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+#contents table.contact input[type="text"]{
+	padding: 2%
+}
+#contents input[type="submit"],
+#contents input[type="button"]{
+	padding: 10px;
+    width: 90%;
+}
+#contents table.contact td,
+#contents table.contact th{
+	display: block;
+	width: auto;
+}
+#contents img.smallPhoto{
+	float: left;
+	width: 50%;
+	margin: 1% 2% 1% 0%;
+}
